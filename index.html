@@ -1,91 +1,46 @@
 <html>
-
 <head>
-    <title>Fragal</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+	<title>Math quiz</title>
 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<script src="game_login.js"></script>
 </head>
-
 <body>
+	<center>
+	<h1>Math quiz</h1>
+	<br>
 
-    <center>
-
-        <ul class="menu">
-            <li class="links"></li>
-            <li class="links"><a href="#aboutme">About me</a> </li>
-            <li class="links"><a href="#videos">Videos</a> </li>
-            <li class="links"><a href="#pictures">Pictures</a></li>
-            <li class="links"><a href="#myinstagramaccount">My instagram account</a></li>
-            <li class="links"><a href="#contact">Contact</a></li>
-        </ul>
-
-    </center>
-
-    <section id="welcome">
-        <div class="parallax-inner">
-            <img src="WhatsApp%20Image%202020-12-23%20at%207.36.24%20AM.jpeg" class="profile" />
-            <h1>I am <br><span id="name">Fragal</span></h1>
-            <h2>hi</h2>
-        </div>
-
-    </section>
+<div class="col-lg-4 col-sm-8 col-xs-11 login_div1">
+<h2>Player 1 login</h2>
+<label>User Name:</label>
+<input type="text" id="player1_name_input" class="form-control" placeholder="Player 1 Name">
+<br>
+	
+</div>
+<br>
+<br>
+<br>
 
 
+<div class="col-lg-4 col-sm-8 col-xs-11 login_div2">
+<h2>Player 2 login</h2>
+<label>User Name:</label>
+<input type="text" id="player2_name_input" class="form-control" placeholder="Player 2 Name">
+<br>
+			
+</div>
+<br>
 
-    <section id="bio">
-        <h1>Hi!</h1>
-        <div class="line"></div>
-        <p>Hello everyone!!i am Fragal this my first webpage on brackets.I am 4 months old and I love to play,eat and sleep.</p>
-    </section>
+<div class="container">
+		<button class="btn btn-info" onclick = "Login()"  id="Login_button">Log in</button>
+	</div>
 
-    <section id="aboutme">
-        <h2>About me</h2>
-        <div class="line"></div>
-        <br> <iframe width="500" height="500" src="https://dogtime.com/dog-breeds/golden-retriever#/slide/1"></iframe>
-    </section>
-
-    <section id="videos">
-        <h1>Videos</h1>
-        <div class="line"></div>
-        <br> <iframe width="1263" height="480" src="https://www.youtube.com/embed/I9PSlxsd420" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </section>
-
-
-    <section id="pictures">
-        <h3>Pictures</h3>
-        <div class="line"></div>
-        <br> <img width="500" height="500" src="WhatsApp%20Image%202020-12-29%20at%201.06.50%20PM.jpeg">
-        <span><img width="500" height="500" src="WhatsApp%20Image%202020-12-23%20at%207.36.24%20AM.jpeg"></span>
-    </section>
-
-
-    <section id="myinstagramaccount">
-        <h4>My instagram account</h4>
-        <div class="line"></div>
-        <br> <iframe width="500" height="500" src="https://instagram.com/fragal2020?igshid=70o1sd08pxyc"></iframe>
-    </section>
-
-
-    <section id="contact">
-        <h1>Contact</h1>
-        <div class="line"></div>
-        <a href="mailto:fragalthecutie@gmail.com?Subject=Hello">
-            <i class="fa fa-envelope"></i>&nbsp;<h3> fragalthecutie@gmail.com </h3>
-        </a>
-
-
-
-
-
-
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15551.930395490539!2d77.6689135!3d12.9729647!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xded9ba6308f0a82!2sShishya%20BEML%20Public%20School!5e0!3m2!1sen!2sin!4v1609755110631!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-
-    </section>
-
-
-
-
+</center>
 </body>
-
 </html>
